@@ -1,1 +1,0 @@
-{"src": "firmware_mips_smbd.ida", "n_num": 1, "succs": [[]], "features": [[0.0, 2.0, 0.0, 1.0, 0.0, 7.0, 1.0]], "fname": "spoolss_get_pipe_fns"}

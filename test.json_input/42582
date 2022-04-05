@@ -1,1 +1,0 @@
-{"src": "firmware_mips_naptd.ida", "n_num": 1, "succs": [[]], "features": [[0.0, 4.0, 0.0, 3.0, 2.0, 33.0, 3.0]], "fname": "_Z27Request_Dynamic_DNS_mappingP7in_addrN11NAT_Manager13protocol_typeEPKcj"}

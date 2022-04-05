@@ -1,1 +1,0 @@
-{"src": "firmware_mips_hostapd.ida", "n_num": 3, "succs": [[1, 2], [], []], "features": [[0.0, 2.0, 2.0, 2.0, 0.0, 9.0, 0.0], [0.0, 2.0, 0.0, 2.0, 16.0, 69.0, 17.0], [0.0, 1.0, 0.0, 1.0, 0.0, 4.0, 1.0]], "fname": "hostapd_config_free_wps_config"}
