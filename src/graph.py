@@ -18,7 +18,7 @@ import random
 from random import shuffle
 from itertools import product,permutations
 import collections
-
+import json
 from concurrent.futures import ProcessPoolExecutor
 
 from multiprocessing import Pool
@@ -198,8 +198,23 @@ def load_adjacencylist(file_, undirected=False, chunksize=10000, unchecked=True)
 
   return G 
 
-
-def load_edgelist(file_, undirected=True):
+def load_edgelist(file_, undirected = True):
+  G = Graph()
+  with open(file_) as f:
+    res = f.read()
+    dict = json.loads(res)
+    if(dict['n_num'] == 1):
+      return None
+    for i in range(len(dict['succs'])):
+      if(len(dict['succs'][i]) <= 0):
+        G[i].append(i)
+      for j in range(len(dict['succs'][i])):
+        G[i].append(j)
+        if undirected:
+          G[j].append(i)
+  G.make_consistent()
+  return G
+def load_edgelist1(file_, undirected=True):
   G = Graph()
   with open(file_) as f:
     for l in f:

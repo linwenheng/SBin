@@ -1,0 +1,1 @@
+{"src": "firmware_mips_updatednsip.ida", "n_num": 3, "succs": [[0, 2], [0], []], "features": [[0.0, 3.0, 2.0, 2.0, 1.0, 14.0, 1.0], [0.0, 4.0, 2.0, 3.0, 0.0, 19.0, 0.0], [0.0, 1.0, 0.0, 1.0, 0.0, 17.0, 1.0]], "fname": "Blowfish_decipher"}

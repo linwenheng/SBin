@@ -1,0 +1,1 @@
+{"src": "firmware_mips_ripngd.ida", "n_num": 1, "succs": [[]], "features": [[0.0, 5.0, 0.0, 3.0, 3.0, 24.0, 4.0]], "fname": "ripng_redistribute_bgp_metric"}

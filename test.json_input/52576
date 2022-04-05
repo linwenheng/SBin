@@ -1,0 +1,1 @@
+{"src": "firmware_mips_ripngd.ida", "n_num": 1, "succs": [[]], "features": [[0.0, 5.0, 0.0, 3.0, 2.0, 20.0, 3.0]], "fname": "ripng_redistribute_connected_routemap"}

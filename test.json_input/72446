@@ -1,0 +1,1 @@
+{"src": "firmware_mips_wps_monitor.ida", "n_num": 1, "succs": [[]], "features": [[0.0, 8.0, 0.0, 4.0, 1.0, 24.0, 2.0]], "fname": "wpsm_osl_wpsap_deinit"}

@@ -1,0 +1,1 @@
+{"src": "firmware_mips_lld2.ida", "n_num": 1, "succs": [[]], "features": [[0.0, 7.0, 0.0, 4.0, 1.0, 18.0, 2.0]], "fname": "get_tsc_ticks_per_sec"}
